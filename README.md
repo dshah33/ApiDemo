@@ -151,3 +151,4 @@ logs/APILogs.log
 - **Precondition Steps**: `PrerequiredSteps` class provides reusable setup methods (auth token, booking creation)
 - **Properties-Driven**: Base URL and all endpoints configured in a single properties file
 - **Suite Composition**: `main.xml` includes child suites; individual suites can be targeted via `-Dsuite.name=`
+
