@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker Suite" verbose="1">
+
+    <test name="Create Booking Tests">
+        <classes>
+            <class name="com.api.tests.CreateBookingTest">
+                <methods>
+                    <include name="POST_CreateBooking_WithValidData"/>
+                    <include name="POST_CreateBooking_NoBody_Returns500"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Get Booking Tests">
+        <classes>
+            <class name="com.api.tests.GetBookingTest">
+                <methods>
+                    <include name="GET_AllBookings_Success"/>
+                    <include name="GET_Booking_ByValidId_Success"/>
+                    <include name="GET_Booking_NonExistentId_Returns404"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Update and Delete Booking Tests">
+        <classes>
+            <class name="com.api.tests.UpdateDeleteBookingTest">
+                <methods>
+                    <include name="PUT_UpdateBooking_WithValidToken_Success"/>
+                    <include name="PUT_UpdateBooking_WithoutToken_Returns403"/>
+                    <include name="DELETE_Booking_WithValidToken_Success"/>
+                    <include name="DELETE_Booking_WithoutToken_Returns403"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

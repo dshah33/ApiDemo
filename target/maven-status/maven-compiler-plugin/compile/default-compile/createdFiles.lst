@@ -1,0 +1,8 @@
+com\api\pojo\BookingDates.class
+com\api\report\ExtentManager.class
+com\api\base\TestBase.class
+com\api\utils\Assertions.class
+com\api\base\TestBase$ExtentReportFilter.class
+com\api\utils\HttpStatus.class
+com\api\pojo\Booking.class
+com\api\pojo\Login.class

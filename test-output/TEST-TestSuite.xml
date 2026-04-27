@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.438" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Assignment\APIDemo\target\test-classes;C:\Assignment\APIDemo\target\classes;C:\Users\17323\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\17323\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\17323\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\17323\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\17323\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\17323\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\17323\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\17323\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\17323\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\17323\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\17323\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\17323\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\17323\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\17323\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\17323\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\17323\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\17323\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\17323\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\17323\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\17323\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\17323\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\17323\.m2\repository\io\rest-assured\json-schema-validator\4.3.3\json-schema-validator-4.3.3.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\17323\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\17323\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\17323\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\17323\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\17323\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\17323\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\17323\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\17323\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\17323\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\17323\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\17323\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\17323\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\17323\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\17323\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\17323\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\17323\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\17323\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\17323\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.3\log4j-slf4j-impl-2.25.3.jar;C:\Users\17323\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\17323\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\17323\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\17323\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\17323\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\17323\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\17323\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\eclipse-jee-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\17323\AppData\Local\Temp\surefire11944876192673994144\surefirebooter-20260330093057322_3.jar C:\Users\17323\AppData\Local\Temp\surefire11944876192673994144 2026-03-30T09-30-57_203-jvmRun1 surefire-20260330093057322_1tmp surefire_0-20260330093057322_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Assignment\APIDemo\target\test-classes;C:\Assignment\APIDemo\target\classes;C:\Users\17323\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\17323\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\17323\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\17323\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\17323\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\17323\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\17323\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\17323\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\17323\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\17323\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\17323\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\17323\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\17323\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\17323\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\17323\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\17323\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\17323\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\17323\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\17323\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\17323\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\17323\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\17323\.m2\repository\io\rest-assured\json-schema-validator\4.3.3\json-schema-validator-4.3.3.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\17323\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\17323\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\17323\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\17323\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\17323\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\17323\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\17323\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\17323\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\17323\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\17323\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\17323\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\17323\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\17323\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\17323\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\17323\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\17323\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\17323\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\17323\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\17323\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.3\log4j-slf4j-impl-2.25.3.jar;C:\Users\17323\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\17323\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\17323\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\17323\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\17323\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\17323\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\17323\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\17323"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="D:\eclipse-jee-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Assignment\APIDemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\17323\AppData\Local\Temp\surefire11944876192673994144\surefirebooter-20260330093057322_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="17323"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\17323\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\17323\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Assignment\APIDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\eclipse-jee-2020-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/eclipse-jee-2020-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;D:/eclipse-jee-2020-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;D:\Java and Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\PuTTY\;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\nodejs\;C:\Users\17323\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TestProject Agent;C:\Program Files\Azure Data Studio\bin;C:\Users\17323\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;;C:\Users\17323\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\17323\AppData\Roaming\npm;D:\eclipse-jee-2020-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="POST_Auth_WithValidCredentials_ReturnsToken" classname="com.api.tests.LoginTest" time="1.878">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:30:59.020 [main] TestBase - Base URI set to: https://restful-booker.herokuapp.com
+[INFO ] 2026-03-30 09:30:59.213 [main] TestBase - ========== Starting Test: POST_Auth_WithValidCredentials_ReturnsToken ==========
+[INFO ] 2026-03-30 09:30:59.805 [main] TestBase - Request Method: POST
+[INFO ] 2026-03-30 09:30:59.805 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/auth
+[INFO ] 2026-03-30 09:30:59.805 [main] TestBase - Request Headers:
+Accept: */*
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:30:59.805 [main] TestBase - Request Body:
+{"username":"admin","password":"password123"}
+[INFO ] 2026-03-30 09:31:00.682 [main] TestBase - Response Status: 200 HTTP/1.1 200 OK
+[INFO ] 2026-03-30 09:31:00.683 [main] TestBase - Response Headers:
+Content-Length: 27
+Content-Type: application/json; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:00 GMT
+Etag: W/"1b-BxPx0v/Ay4gOvTafU2vL2wRXtvE"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ly38fzQX39VEXcFxE8as8ocowVjuUKoypFly5hvBeMM%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877460"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ly38fzQX39VEXcFxE8as8ocowVjuUKoypFly5hvBeMM%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877460"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:00.684 [main] TestBase - Response Body:
+{"token":"c5d43d830c8f420"}
+]]></system-out>
+  </testcase>
+  <testcase name="POST_Auth_WithInvalidCredentials_ReturnsError" classname="com.api.tests.LoginTest" time="0.191">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:01.094 [main] TestBase - Test PASSED: POST_Auth_WithValidCredentials_ReturnsToken
+[INFO ] 2026-03-30 09:31:01.095 [main] TestBase - ========== Finished Test: POST_Auth_WithValidCredentials_ReturnsToken ==========
+[INFO ] 2026-03-30 09:31:01.098 [main] TestBase - ========== Starting Test: POST_Auth_WithInvalidCredentials_ReturnsError ==========
+[INFO ] 2026-03-30 09:31:01.103 [main] TestBase - Request Method: POST
+[INFO ] 2026-03-30 09:31:01.103 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/auth
+[INFO ] 2026-03-30 09:31:01.104 [main] TestBase - Request Headers:
+Accept: */*
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:01.104 [main] TestBase - Request Body:
+{"username":"wronguser","password":"wrongpass"}
+[INFO ] 2026-03-30 09:31:01.279 [main] TestBase - Response Status: 200 HTTP/1.1 200 OK
+[INFO ] 2026-03-30 09:31:01.279 [main] TestBase - Response Headers:
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:01 GMT
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ioc23btq9d9EUtZAun4R6k9e2TX02TiSeAqH13RT0hk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877461"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Ioc23btq9d9EUtZAun4R6k9e2TX02TiSeAqH13RT0hk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877461"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:01.280 [main] TestBase - Response Body:
+{"reason":"Bad credentials"}
+]]></system-out>
+  </testcase>
+  <testcase name="POST_CreateBooking_WithValidData" classname="com.api.tests.CreateBookingTest" time="0.522">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:01.291 [main] TestBase - Test PASSED: POST_Auth_WithInvalidCredentials_ReturnsError
+[INFO ] 2026-03-30 09:31:01.291 [main] TestBase - ========== Finished Test: POST_Auth_WithInvalidCredentials_ReturnsError ==========
+[INFO ] 2026-03-30 09:31:01.436 [main] TestBase - Base URI set to: https://restful-booker.herokuapp.com
+[INFO ] 2026-03-30 09:31:01.436 [main] TestBase - ========== Starting Test: POST_CreateBooking_WithValidData ==========
+[INFO ] 2026-03-30 09:31:01.448 [main] TestBase - Request Method: POST
+[INFO ] 2026-03-30 09:31:01.448 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking
+[INFO ] 2026-03-30 09:31:01.448 [main] TestBase - Request Headers:
+Accept: application/json
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:01.449 [main] TestBase - Request Body:
+{"firstname":"Test","lastname":"User","totalprice":150,"depositpaid":true,"bookingdates":{"checkin":"2025-03-01","checkout":"2025-03-05"},"additionalneeds":"Breakfast"}
+[INFO ] 2026-03-30 09:31:01.617 [main] TestBase - Response Status: 200 HTTP/1.1 200 OK
+[INFO ] 2026-03-30 09:31:01.617 [main] TestBase - Response Headers:
+Content-Length: 195
+Content-Type: application/json; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:01 GMT
+Etag: W/"c3-JuPAyyfH9g6BtJSDmocjsRhlu+8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ioc23btq9d9EUtZAun4R6k9e2TX02TiSeAqH13RT0hk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877461"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Ioc23btq9d9EUtZAun4R6k9e2TX02TiSeAqH13RT0hk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877461"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:01.619 [main] TestBase - Response Body:
+{"bookingid":94,"booking":{"firstname":"Test","lastname":"User","totalprice":150,"depositpaid":true,"bookingdates":{"checkin":"2025-03-01","checkout":"2025-03-05"},"additionalneeds":"Breakfast"}}
+]]></system-out>
+  </testcase>
+  <testcase name="POST_CreateBooking_NoBody_Returns500" classname="com.api.tests.CreateBookingTest" time="0.196">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:01.959 [main] TestBase - Test PASSED: POST_CreateBooking_WithValidData
+[INFO ] 2026-03-30 09:31:01.960 [main] TestBase - ========== Finished Test: POST_CreateBooking_WithValidData ==========
+[INFO ] 2026-03-30 09:31:01.960 [main] TestBase - ========== Starting Test: POST_CreateBooking_NoBody_Returns500 ==========
+[INFO ] 2026-03-30 09:31:01.964 [main] TestBase - Request Method: POST
+[INFO ] 2026-03-30 09:31:01.964 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking
+[INFO ] 2026-03-30 09:31:01.964 [main] TestBase - Request Headers:
+Accept: application/json
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:02.154 [main] TestBase - Response Status: 500 HTTP/1.1 500 Internal Server Error
+[INFO ] 2026-03-30 09:31:02.154 [main] TestBase - Response Headers:
+Content-Length: 21
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:02 GMT
+Etag: W/"15-/6VXivhc2MKdLfIkLcUE47K6aH0"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=X3aA31gOkGSX%2FD1HzD0Rw7w1K3J6wMNeb3rkxC5qv4g%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877462"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=X3aA31gOkGSX%2FD1HzD0Rw7w1K3J6wMNeb3rkxC5qv4g%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877462"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:02.154 [main] TestBase - Response Body:
+Internal Server Error
+]]></system-out>
+  </testcase>
+  <testcase name="GET_AllBookings_Success" classname="com.api.tests.GetBookingTest" time="0.205">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:02.155 [main] TestBase - Test PASSED: POST_CreateBooking_NoBody_Returns500
+[INFO ] 2026-03-30 09:31:02.155 [main] TestBase - ========== Finished Test: POST_CreateBooking_NoBody_Returns500 ==========
+[INFO ] 2026-03-30 09:31:02.161 [main] TestBase - Base URI set to: https://restful-booker.herokuapp.com
+[INFO ] 2026-03-30 09:31:02.348 [main] PrerequiredSteps - Booking created - ID: 102
+[INFO ] 2026-03-30 09:31:02.349 [main] TestBase - ========== Starting Test: GET_AllBookings_Success ==========
+[INFO ] 2026-03-30 09:31:02.351 [main] TestBase - Request Method: GET
+[INFO ] 2026-03-30 09:31:02.351 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking
+[INFO ] 2026-03-30 09:31:02.351 [main] TestBase - Request Headers:
+Accept: application/json
+
+[INFO ] 2026-03-30 09:31:02.534 [main] TestBase - Response Status: 200 HTTP/1.1 200 OK
+[INFO ] 2026-03-30 09:31:02.534 [main] TestBase - Response Headers:
+Content-Length: 1458
+Content-Type: application/json; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:02 GMT
+Etag: W/"5b2-be03jfV0vQyusxVxJf7ZpQCtT9M"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=X3aA31gOkGSX%2FD1HzD0Rw7w1K3J6wMNeb3rkxC5qv4g%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877462"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=X3aA31gOkGSX%2FD1HzD0Rw7w1K3J6wMNeb3rkxC5qv4g%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877462"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:02.535 [main] TestBase - Response Body:
+[{"bookingid":1},{"bookingid":2},{"bookingid":3},{"bookingid":4},{"bookingid":5},{"bookingid":6},{"bookingid":7},{"bookingid":8},{"bookingid":9},{"bookingid":10},{"bookingid":11},{"bookingid":12},{"bookingid":13},{"bookingid":14},{"bookingid":15},{"bookingid":16},{"bookingid":17},{"bookingid":19},{"bookingid":20},{"bookingid":21},{"bookingid":22},{"bookingid":24},{"bookingid":25},{"bookingid":26},{"bookingid":27},{"bookingid":29},{"bookingid":30},{"bookingid":31},{"bookingid":33},{"bookingid":34},{"bookingid":36},{"bookingid":37},{"bookingid":38},{"bookingid":39},{"bookingid":41},{"bookingid":42},{"bookingid":43},{"bookingid":44},{"bookingid":45},{"bookingid":46},{"bookingid":48},{"bookingid":50},{"bookingid":51},{"bookingid":52},{"bookingid":54},{"bookingid":55},{"bookingid":56},{"bookingid":57},{"bookingid":58},{"bookingid":61},{"bookingid":62},{"bookingid":63},{"bookingid":64},{"bookingid":65},{"bookingid":66},{"bookingid":68},{"bookingid":69},{"bookingid":70},{"bookingid":71},{"bookingid":72},{"bookingid":73},{"bookingid":74},{"bookingid":76},{"bookingid":78},{"bookingid":79},{"bookingid":80},{"bookingid":81},{"bookingid":82},{"bookingid":83},{"bookingid":85},{"bookingid":87},{"bookingid":88},{"bookingid":89},{"bookingid":90},{"bookingid":91},{"bookingid":93},{"bookingid":94},{"bookingid":95},{"bookingid":96},{"bookingid":97},{"bookingid":98},{"bookingid":99},{"bookingid":101},{"bookingid":102},{"bookingid":103},{"bookingid":104}]
+]]></system-out>
+  </testcase>
+  <testcase name="GET_Booking_ByValidId_Success" classname="com.api.tests.GetBookingTest" time="0.196">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:02.550 [main] TestBase - Test PASSED: GET_AllBookings_Success
+[INFO ] 2026-03-30 09:31:02.550 [main] TestBase - ========== Finished Test: GET_AllBookings_Success ==========
+[INFO ] 2026-03-30 09:31:02.551 [main] TestBase - ========== Starting Test: GET_Booking_ByValidId_Success ==========
+[INFO ] 2026-03-30 09:31:02.553 [main] TestBase - Request Method: GET
+[INFO ] 2026-03-30 09:31:02.554 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking/102
+[INFO ] 2026-03-30 09:31:02.554 [main] TestBase - Request Headers:
+Accept: application/json
+
+[INFO ] 2026-03-30 09:31:02.718 [main] TestBase - Response Status: 200 HTTP/1.1 200 OK
+[INFO ] 2026-03-30 09:31:02.718 [main] TestBase - Response Headers:
+Content-Length: 175
+Content-Type: application/json; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:02 GMT
+Etag: W/"af-4PzoNLNtPqnA4Z2EgObdu5FUfnM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=X3aA31gOkGSX%2FD1HzD0Rw7w1K3J6wMNeb3rkxC5qv4g%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877462"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=X3aA31gOkGSX%2FD1HzD0Rw7w1K3J6wMNeb3rkxC5qv4g%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877462"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:02.718 [main] TestBase - Response Body:
+{"firstname":"Test","lastname":"User","totalprice":200,"depositpaid":true,"bookingdates":{"checkin":"2025-05-01","checkout":"2025-05-07"},"additionalneeds":"Airport transfer"}
+]]></system-out>
+  </testcase>
+  <testcase name="GET_Booking_NonExistentId_Returns404" classname="com.api.tests.GetBookingTest" time="0.173">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:02.750 [main] TestBase - Test PASSED: GET_Booking_ByValidId_Success
+[INFO ] 2026-03-30 09:31:02.751 [main] TestBase - ========== Finished Test: GET_Booking_ByValidId_Success ==========
+[INFO ] 2026-03-30 09:31:02.751 [main] TestBase - ========== Starting Test: GET_Booking_NonExistentId_Returns404 ==========
+[INFO ] 2026-03-30 09:31:02.755 [main] TestBase - Request Method: GET
+[INFO ] 2026-03-30 09:31:02.756 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking/999999999
+[INFO ] 2026-03-30 09:31:02.756 [main] TestBase - Request Headers:
+Accept: application/json
+
+[INFO ] 2026-03-30 09:31:02.924 [main] TestBase - Response Status: 404 HTTP/1.1 404 Not Found
+[INFO ] 2026-03-30 09:31:02.924 [main] TestBase - Response Headers:
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:03 GMT
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=vY7kJT7MmdYud7Skevmgpf96nOjl8zhfXlT9ICW1oT4%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877463"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=vY7kJT7MmdYud7Skevmgpf96nOjl8zhfXlT9ICW1oT4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877463"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:02.924 [main] TestBase - Response Body:
+Not Found
+]]></system-out>
+  </testcase>
+  <testcase name="PUT_UpdateBooking_WithValidToken_Success" classname="com.api.tests.UpdateDeleteBookingTest" time="0.205">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:02.925 [main] TestBase - Test PASSED: GET_Booking_NonExistentId_Returns404
+[INFO ] 2026-03-30 09:31:02.926 [main] TestBase - ========== Finished Test: GET_Booking_NonExistentId_Returns404 ==========
+[INFO ] 2026-03-30 09:31:02.932 [main] TestBase - Base URI set to: https://restful-booker.herokuapp.com
+[INFO ] 2026-03-30 09:31:03.117 [main] PrerequiredSteps - Auth token obtained: f5e69157da9a050
+[INFO ] 2026-03-30 09:31:03.296 [main] PrerequiredSteps - Booking created - ID: 116
+[INFO ] 2026-03-30 09:31:03.296 [main] TestBase - ========== Starting Test: PUT_UpdateBooking_WithValidToken_Success ==========
+[INFO ] 2026-03-30 09:31:03.305 [main] TestBase - Request Method: PUT
+[INFO ] 2026-03-30 09:31:03.305 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking/116
+[INFO ] 2026-03-30 09:31:03.305 [main] TestBase - Request Headers:
+Accept: application/json
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:03.306 [main] TestBase - Request Body:
+{"firstname":"Bobby","lastname":"Updated","totalprice":350,"depositpaid":false,"bookingdates":{"checkin":"2025-08-05","checkout":"2025-08-12"},"additionalneeds":"Spa"}
+[INFO ] 2026-03-30 09:31:03.482 [main] TestBase - Response Status: 200 HTTP/1.1 200 OK
+[INFO ] 2026-03-30 09:31:03.483 [main] TestBase - Response Headers:
+Content-Length: 167
+Content-Type: application/json; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:03 GMT
+Etag: W/"a7-Q6J6jnWBWFGr8MpJP6g8+NrEQZ8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=vY7kJT7MmdYud7Skevmgpf96nOjl8zhfXlT9ICW1oT4%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877463"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=vY7kJT7MmdYud7Skevmgpf96nOjl8zhfXlT9ICW1oT4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877463"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:03.483 [main] TestBase - Response Body:
+{"firstname":"Bobby","lastname":"Updated","totalprice":350,"depositpaid":false,"bookingdates":{"checkin":"2025-08-05","checkout":"2025-08-12"},"additionalneeds":"Spa"}
+]]></system-out>
+  </testcase>
+  <testcase name="PUT_UpdateBooking_WithoutToken_Returns403" classname="com.api.tests.UpdateDeleteBookingTest" time="0.162">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:03.499 [main] TestBase - Test PASSED: PUT_UpdateBooking_WithValidToken_Success
+[INFO ] 2026-03-30 09:31:03.501 [main] TestBase - ========== Finished Test: PUT_UpdateBooking_WithValidToken_Success ==========
+[INFO ] 2026-03-30 09:31:03.502 [main] TestBase - ========== Starting Test: PUT_UpdateBooking_WithoutToken_Returns403 ==========
+[INFO ] 2026-03-30 09:31:03.506 [main] TestBase - Request Method: PUT
+[INFO ] 2026-03-30 09:31:03.506 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking/116
+[INFO ] 2026-03-30 09:31:03.506 [main] TestBase - Request Headers:
+Accept: application/json
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:03.506 [main] TestBase - Request Body:
+{"firstname":"NoAuth","lastname":"User","totalprice":100,"depositpaid":true,"bookingdates":{"checkin":"2025-08-01","checkout":"2025-08-02"},"additionalneeds":""}
+[INFO ] 2026-03-30 09:31:03.665 [main] TestBase - Response Status: 403 HTTP/1.1 403 Forbidden
+[INFO ] 2026-03-30 09:31:03.665 [main] TestBase - Response Headers:
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:03 GMT
+Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=vY7kJT7MmdYud7Skevmgpf96nOjl8zhfXlT9ICW1oT4%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877463"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=vY7kJT7MmdYud7Skevmgpf96nOjl8zhfXlT9ICW1oT4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877463"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:03.665 [main] TestBase - Response Body:
+Forbidden
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE_Booking_WithValidToken_Success" classname="com.api.tests.UpdateDeleteBookingTest" time="0.17">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:03.666 [main] TestBase - Test PASSED: PUT_UpdateBooking_WithoutToken_Returns403
+[INFO ] 2026-03-30 09:31:03.666 [main] TestBase - ========== Finished Test: PUT_UpdateBooking_WithoutToken_Returns403 ==========
+[INFO ] 2026-03-30 09:31:03.666 [main] TestBase - ========== Starting Test: DELETE_Booking_WithValidToken_Success ==========
+[INFO ] 2026-03-30 09:31:03.860 [main] PrerequiredSteps - Booking created - ID: 126
+[INFO ] 2026-03-30 09:31:03.863 [main] TestBase - Request Method: DELETE
+[INFO ] 2026-03-30 09:31:03.863 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking/126
+[INFO ] 2026-03-30 09:31:03.863 [main] TestBase - Request Headers:
+Accept: */*
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:04.028 [main] TestBase - Response Status: 201 HTTP/1.1 201 Created
+[INFO ] 2026-03-30 09:31:04.028 [main] TestBase - Response Headers:
+Content-Length: 7
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:04 GMT
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Jk%2FpwAyLWC8srme14P%2FsuVhVxDXxCWFnEGcFll0mu7k%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877464"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Jk%2FpwAyLWC8srme14P%2FsuVhVxDXxCWFnEGcFll0mu7k%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877464"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:04.029 [main] TestBase - Response Body:
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE_Booking_WithoutToken_Returns403" classname="com.api.tests.UpdateDeleteBookingTest" time="0.152">
+    <system-out><![CDATA[[INFO ] 2026-03-30 09:31:04.029 [main] TestBase - Test PASSED: DELETE_Booking_WithValidToken_Success
+[INFO ] 2026-03-30 09:31:04.029 [main] TestBase - ========== Finished Test: DELETE_Booking_WithValidToken_Success ==========
+[INFO ] 2026-03-30 09:31:04.031 [main] TestBase - ========== Starting Test: DELETE_Booking_WithoutToken_Returns403 ==========
+[INFO ] 2026-03-30 09:31:04.033 [main] TestBase - Request Method: DELETE
+[INFO ] 2026-03-30 09:31:04.033 [main] TestBase - Request URL: https://restful-booker.herokuapp.com/booking/116
+[INFO ] 2026-03-30 09:31:04.034 [main] TestBase - Request Headers:
+Accept: */*
+Content-Type: application/json; charset=UTF-8
+
+[INFO ] 2026-03-30 09:31:04.181 [main] TestBase - Response Status: 403 HTTP/1.1 403 Forbidden
+[INFO ] 2026-03-30 09:31:04.181 [main] TestBase - Response Headers:
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 30 Mar 2026 13:31:04 GMT
+Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Jk%2FpwAyLWC8srme14P%2FsuVhVxDXxCWFnEGcFll0mu7k%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1774877464"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Jk%2FpwAyLWC8srme14P%2FsuVhVxDXxCWFnEGcFll0mu7k%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1774877464"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+[INFO ] 2026-03-30 09:31:04.181 [main] TestBase - Response Body:
+Forbidden
+]]></system-out>
+  </testcase>
+</testsuite>
