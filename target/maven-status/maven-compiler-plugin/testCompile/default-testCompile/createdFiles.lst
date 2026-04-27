@@ -1,0 +1,5 @@
+com\api\tests\UpdateDeleteBookingTest.class
+com\api\tests\LoginTest.class
+com\api\steps\PrerequiredSteps.class
+com\api\tests\CreateBookingTest.class
+com\api\tests\GetBookingTest.class

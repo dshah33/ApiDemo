@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-30T09:35:33 EDT" name="Login Suite" finished-at="2026-03-30T09:35:36 EDT" duration-ms="2574">
+    <groups>
+    </groups>
+    <test started-at="2026-03-30T09:35:33 EDT" name="Login tests" finished-at="2026-03-30T09:35:36 EDT" duration-ms="2574">
+      <class name="com.api.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:33 EDT" name="setUp" finished-at="2026-03-30T09:35:34 EDT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:34 EDT" name="startTest" finished-at="2026-03-30T09:35:34 EDT" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.POST_Auth_WithValidCredentials_ReturnsToken()[pri:1, instance:com.api.tests.LoginTest@163d04ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="POST_Auth_WithValidCredentials_ReturnsToken()[pri:1, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:34 EDT" name="POST_Auth_WithValidCredentials_ReturnsToken" description="POST /auth - valid credentials returns token" finished-at="2026-03-30T09:35:36 EDT" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST_Auth_WithValidCredentials_ReturnsToken -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:36 EDT" name="endTest" finished-at="2026-03-30T09:35:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POST_Auth_WithValidCredentials_ReturnsToken status=SUCCESS method=LoginTest.POST_Auth_WithValidCredentials_ReturnsToken()[pri:1, instance:com.api.tests.LoginTest@163d04ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:36 EDT" name="startTest" finished-at="2026-03-30T09:35:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.POST_Auth_WithInvalidCredentials_ReturnsError()[pri:2, instance:com.api.tests.LoginTest@163d04ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="POST_Auth_WithInvalidCredentials_ReturnsError()[pri:2, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:36 EDT" name="POST_Auth_WithInvalidCredentials_ReturnsError" description="POST /auth - invalid credentials returns error" finished-at="2026-03-30T09:35:36 EDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST_Auth_WithInvalidCredentials_ReturnsError -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:36 EDT" name="endTest" finished-at="2026-03-30T09:35:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POST_Auth_WithInvalidCredentials_ReturnsError status=SUCCESS method=LoginTest.POST_Auth_WithInvalidCredentials_ReturnsError()[pri:2, instance:com.api.tests.LoginTest@163d04ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.api.tests.LoginTest@163d04ff]" started-at="2026-03-30T09:35:36 EDT" name="tearDown" finished-at="2026-03-30T09:35:36 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.api.tests.LoginTest -->
+    </test> <!-- Login tests -->
+  </suite> <!-- Login Suite -->
+  <suite started-at="2026-03-30T09:35:36 EDT" name="Restful Booker Suite" finished-at="2026-03-30T09:35:39 EDT" duration-ms="2930">
+    <groups>
+      <group name="delete">
+        <method signature="UpdateDeleteBookingTest.DELETE_Booking_WithValidToken_Success()[pri:3, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" name="DELETE_Booking_WithValidToken_Success" class="com.api.tests.UpdateDeleteBookingTest"/>
+      </group> <!-- delete -->
+    </groups>
+    <test started-at="2026-03-30T09:35:36 EDT" name="Create Booking Tests" finished-at="2026-03-30T09:35:37 EDT" duration-ms="767">
+      <class name="com.api.tests.CreateBookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:36 EDT" name="setUp" finished-at="2026-03-30T09:35:36 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:36 EDT" name="startTest" finished-at="2026-03-30T09:35:36 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateBookingTest.POST_CreateBooking_WithValidData()[pri:1, instance:com.api.tests.CreateBookingTest@502f1f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="POST_CreateBooking_WithValidData()[pri:1, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:36 EDT" name="POST_CreateBooking_WithValidData" description="POST /booking - create a booking with all valid fields" finished-at="2026-03-30T09:35:37 EDT" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST_CreateBooking_WithValidData -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:37 EDT" name="endTest" finished-at="2026-03-30T09:35:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POST_CreateBooking_WithValidData status=SUCCESS method=CreateBookingTest.POST_CreateBooking_WithValidData()[pri:1, instance:com.api.tests.CreateBookingTest@502f1f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:37 EDT" name="startTest" finished-at="2026-03-30T09:35:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CreateBookingTest.POST_CreateBooking_NoBody_Returns500()[pri:2, instance:com.api.tests.CreateBookingTest@502f1f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="POST_CreateBooking_NoBody_Returns500()[pri:2, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:37 EDT" name="POST_CreateBooking_NoBody_Returns500" description="POST /booking - unhappy path: no body returns 500" finished-at="2026-03-30T09:35:37 EDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST_CreateBooking_NoBody_Returns500 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.CreateBookingTest@502f1f4c]" started-at="2026-03-30T09:35:37 EDT" name="endTest" finished-at="2026-03-30T09:35:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POST_CreateBooking_NoBody_Returns500 status=SUCCESS method=CreateBookingTest.POST_CreateBooking_NoBody_Returns500()[pri:2, instance:com.api.tests.CreateBookingTest@502f1f4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.api.tests.CreateBookingTest -->
+    </test> <!-- Create Booking Tests -->
+    <test started-at="2026-03-30T09:35:37 EDT" name="Get Booking Tests" finished-at="2026-03-30T09:35:38 EDT" duration-ms="889">
+      <class name="com.api.tests.GetBookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:37 EDT" name="setUp" finished-at="2026-03-30T09:35:37 EDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:37 EDT" name="startTest" finished-at="2026-03-30T09:35:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetBookingTest.GET_AllBookings_Success()[pri:1, instance:com.api.tests.GetBookingTest@12bcd0c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GET_AllBookings_Success()[pri:1, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:37 EDT" name="GET_AllBookings_Success" description="GET /booking - retrieve all booking IDs" finished-at="2026-03-30T09:35:37 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_AllBookings_Success -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:37 EDT" name="endTest" finished-at="2026-03-30T09:35:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GET_AllBookings_Success status=SUCCESS method=GetBookingTest.GET_AllBookings_Success()[pri:1, instance:com.api.tests.GetBookingTest@12bcd0c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="GET_Booking_ByValidId_Success()[pri:2, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:37 EDT" name="GET_Booking_ByValidId_Success" description="GET /booking/:id - retrieve a single booking" finished-at="2026-03-30T09:35:38 EDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_Booking_ByValidId_Success -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:37 EDT" name="startTest" finished-at="2026-03-30T09:35:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetBookingTest.GET_Booking_ByValidId_Success()[pri:2, instance:com.api.tests.GetBookingTest@12bcd0c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:38 EDT" name="endTest" finished-at="2026-03-30T09:35:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GET_Booking_ByValidId_Success status=SUCCESS method=GetBookingTest.GET_Booking_ByValidId_Success()[pri:2, instance:com.api.tests.GetBookingTest@12bcd0c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:38 EDT" name="startTest" finished-at="2026-03-30T09:35:38 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetBookingTest.GET_Booking_NonExistentId_Returns404()[pri:3, instance:com.api.tests.GetBookingTest@12bcd0c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="GET_Booking_NonExistentId_Returns404()[pri:3, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:38 EDT" name="GET_Booking_NonExistentId_Returns404" description="GET /booking/:id - unhappy path: non-existent ID returns 404" finished-at="2026-03-30T09:35:38 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_Booking_NonExistentId_Returns404 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.GetBookingTest@12bcd0c0]" started-at="2026-03-30T09:35:38 EDT" name="endTest" finished-at="2026-03-30T09:35:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GET_Booking_NonExistentId_Returns404 status=SUCCESS method=GetBookingTest.GET_Booking_NonExistentId_Returns404()[pri:3, instance:com.api.tests.GetBookingTest@12bcd0c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.api.tests.GetBookingTest -->
+    </test> <!-- Get Booking Tests -->
+    <test started-at="2026-03-30T09:35:38 EDT" name="Update and Delete Booking Tests" finished-at="2026-03-30T09:35:39 EDT" duration-ms="1264">
+      <class name="com.api.tests.UpdateDeleteBookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:38 EDT" name="setUp" finished-at="2026-03-30T09:35:38 EDT" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:38 EDT" name="startTest" finished-at="2026-03-30T09:35:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateDeleteBookingTest.PUT_UpdateBooking_WithValidToken_Success()[pri:1, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="PUT_UpdateBooking_WithValidToken_Success()[pri:1, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:38 EDT" name="PUT_UpdateBooking_WithValidToken_Success" description="PUT /booking/:id - full update with token cookie returns 200" finished-at="2026-03-30T09:35:38 EDT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PUT_UpdateBooking_WithValidToken_Success -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:38 EDT" name="endTest" finished-at="2026-03-30T09:35:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PUT_UpdateBooking_WithValidToken_Success status=SUCCESS method=UpdateDeleteBookingTest.PUT_UpdateBooking_WithValidToken_Success()[pri:1, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:38 EDT" name="startTest" finished-at="2026-03-30T09:35:38 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateDeleteBookingTest.PUT_UpdateBooking_WithoutToken_Returns403()[pri:2, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="PUT_UpdateBooking_WithoutToken_Returns403()[pri:2, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:38 EDT" name="PUT_UpdateBooking_WithoutToken_Returns403" description="PUT /booking/:id - unhappy path: no token returns 403" finished-at="2026-03-30T09:35:39 EDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PUT_UpdateBooking_WithoutToken_Returns403 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="endTest" finished-at="2026-03-30T09:35:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PUT_UpdateBooking_WithoutToken_Returns403 status=SUCCESS method=UpdateDeleteBookingTest.PUT_UpdateBooking_WithoutToken_Returns403()[pri:2, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="startTest" finished-at="2026-03-30T09:35:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateDeleteBookingTest.DELETE_Booking_WithValidToken_Success()[pri:3, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="createBookingForDelete()[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="createBookingForDelete" finished-at="2026-03-30T09:35:39 EDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingForDelete -->
+        <test-method signature="DELETE_Booking_WithValidToken_Success()[pri:3, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="DELETE_Booking_WithValidToken_Success" description="DELETE /booking/:id - valid token returns 201" finished-at="2026-03-30T09:35:39 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETE_Booking_WithValidToken_Success -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="endTest" finished-at="2026-03-30T09:35:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DELETE_Booking_WithValidToken_Success status=SUCCESS method=UpdateDeleteBookingTest.DELETE_Booking_WithValidToken_Success()[pri:3, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="DELETE_Booking_WithoutToken_Returns403()[pri:4, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="DELETE_Booking_WithoutToken_Returns403" description="DELETE /booking/:id - unhappy path: no token returns 403" finished-at="2026-03-30T09:35:39 EDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETE_Booking_WithoutToken_Returns403 -->
+        <test-method is-config="true" signature="startTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="startTest" finished-at="2026-03-30T09:35:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UpdateDeleteBookingTest.DELETE_Booking_WithoutToken_Returns403()[pri:4, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="endTest" finished-at="2026-03-30T09:35:39 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DELETE_Booking_WithoutToken_Returns403 status=SUCCESS method=UpdateDeleteBookingTest.DELETE_Booking_WithoutToken_Returns403()[pri:4, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.api.tests.UpdateDeleteBookingTest@5c87bfe2]" started-at="2026-03-30T09:35:39 EDT" name="tearDown" finished-at="2026-03-30T09:35:39 EDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.api.tests.UpdateDeleteBookingTest -->
+    </test> <!-- Update and Delete Booking Tests -->
+  </suite> <!-- Restful Booker Suite -->
+  <suite started-at="2026-03-30T09:35:39 EDT" name="Regression Suite" finished-at="2026-03-30T09:35:39 EDT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Regression Suite -->
+</testng-results>
